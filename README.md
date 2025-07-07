@@ -65,7 +65,7 @@ A .NET 8 WebApi project with WebSocket support, ready to run with Docker Compose
      }
    }
    ```
-# Project Structure
+## Project Structure
    DiscountManager.WebApi/ - Main API and WebSocket handler
    
    DiscountManager.Application/ - Application services and interfaces
@@ -74,19 +74,19 @@ A .NET 8 WebApi project with WebSocket support, ready to run with Docker Compose
    
    DiscountManager.Infrastructure/ - Persistence and logging infrastructure
 
-#Notes
+## Notes
    Storage files are mapped to the local Storage/ folder (via Docker volume).
    
    The default exposed port is 8080 (HTTP).
    
    If you want to change the port, edit docker-compose.yml and the ASPNETCORE_URLS environment variable.
 
-#Troubleshooting
+## Troubleshooting
    If you cannot connect to the WebSocket:
    
    Make sure the container is running: docker ps
    
    Check if any firewall is blocking port 8080
 
-Inspect the container logs: docker logs <container-name>
+   Inspect the container logs: docker logs <container-name>
 
