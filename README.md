@@ -65,7 +65,7 @@ A .NET 8 WebApi project with WebSocket support, ready to run with Docker Compose
      }
    }
    ```
-#Project Structure
+# Project Structure
    DiscountManager.WebApi/ - Main API and WebSocket handler
    
    DiscountManager.Application/ - Application services and interfaces
