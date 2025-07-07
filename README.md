@@ -28,3 +28,10 @@ This will:
 . Build the project image
 
 . Run the container exposing port 8080
+
+3. **Check if the Application is Running**
+
+You should see in the terminal:
+
+Now listening on: http://0.0.0.0:8080
+
