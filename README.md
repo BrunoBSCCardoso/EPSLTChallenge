@@ -90,3 +90,7 @@ A .NET 8 WebApi project with WebSocket support, ready to run with Docker Compose
 
    Inspect the container logs: docker logs <container-name>
 
+## Author
+- [Bruno Cardoso](https://www.linkedin.com/in/bruno-cardoso-737088154/)
+- [CV](https://drive.google.com/file/d/11XTCwZ3DdftHNVVZe5QL6XK8cNywijSH/view?usp=drive_link)
+
