@@ -1,0 +1,12 @@
+services:
+  discountmanager.webapi:
+    image: discountmanagerwebapi
+    build:
+      context: .
+      dockerfile: DiscountManager.WebApi/Dockerfile        
+    volumes:
+      - ./Storage:/app/Storage
+    ports:
+      - "8080:8080"
+    environment:
+      - ASPNETCORE_URLS=http://0.0.0.0:8080

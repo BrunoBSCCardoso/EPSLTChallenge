@@ -1,0 +1,11 @@
+[2025-07-07T22:27:14.8840903Z] [WARN] [GetAll] Discount file does not exist in '/app/Storage/discounts.json'. Returning empty.
+[2025-07-07T22:27:14.8979851Z] [INFO] [ProcessAsync] [2507a024dafd49ce8ffa90a4375fb4bb] WebSocket connected.
+[2025-07-07T22:27:23.9453135Z] [INFO] [ProcessAsync] [2507a024dafd49ce8ffa90a4375fb4bb] Received {
+  "Action": "GenerateCodes",
+  "Payload": {
+    "Count": 1,
+    "Length": 8
+  }
+}
+[2025-07-07T22:27:23.9780214Z] [INFO] [SaveAll] Saved 1 discount codes in '/app/Storage/discounts.json'.
+[2025-07-07T22:27:23.9858874Z] [INFO] [HandleGenerateAsync] [2507a024dafd49ce8ffa90a4375fb4bb] Generated 1 codes.
