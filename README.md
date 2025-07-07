@@ -15,5 +15,5 @@ A .NET 8 WebApi project with WebSocket support, ready to run with Docker Compose
 1. **Clone the Repository**
 
    ```bash
-   git clone [https://github.com/your-username/your-repo.git](https://github.com/BrunoBSCCardoso/EPSLTChallenge.git)
+   git clone https://github.com/your-username/your-repo.git](https://github.com/BrunoBSCCardoso/EPSLTChallenge.git
    cd DiscountManager.WebApi
